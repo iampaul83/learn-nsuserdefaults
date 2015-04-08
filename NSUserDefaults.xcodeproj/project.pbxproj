@@ -14,6 +14,7 @@
 		A082CE501AD50F5C0006D796 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A082CE4F1AD50F5C0006D796 /* Images.xcassets */; };
 		A082CE531AD50F5C0006D796 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A082CE511AD50F5C0006D796 /* LaunchScreen.xib */; };
 		A082CE5F1AD50F5C0006D796 /* NSUserDefaultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A082CE5E1AD50F5C0006D796 /* NSUserDefaultsTests.m */; };
+		A082CE6A1AD510100006D796 /* NSUserDefaults+Subscript.m in Sources */ = {isa = PBXBuildFile; fileRef = A082CE691AD510100006D796 /* NSUserDefaults+Subscript.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A082CE581AD50F5C0006D796 /* NSUserDefaultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSUserDefaultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A082CE5D1AD50F5C0006D796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A082CE5E1AD50F5C0006D796 /* NSUserDefaultsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaultsTests.m; sourceTree = "<group>"; };
+		A082CE681AD510100006D796 /* NSUserDefaults+Subscript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+Subscript.h"; path = "NSUserDefaults+Subscript/NSUserDefaults+Subscript.h"; sourceTree = SOURCE_ROOT; };
+		A082CE691AD510100006D796 /* NSUserDefaults+Subscript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+Subscript.m"; path = "NSUserDefaults+Subscript/NSUserDefaults+Subscript.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				A082CE4F1AD50F5C0006D796 /* Images.xcassets */,
 				A082CE511AD50F5C0006D796 /* LaunchScreen.xib */,
 				A082CE421AD50F5C0006D796 /* Supporting Files */,
+				A082CE681AD510100006D796 /* NSUserDefaults+Subscript.h */,
+				A082CE691AD510100006D796 /* NSUserDefaults+Subscript.m */,
 			);
 			path = NSUserDefaults;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				A082CE4B1AD50F5C0006D796 /* ViewController.m in Sources */,
 				A082CE481AD50F5C0006D796 /* AppDelegate.m in Sources */,
 				A082CE451AD50F5C0006D796 /* main.m in Sources */,
+				A082CE6A1AD510100006D796 /* NSUserDefaults+Subscript.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
